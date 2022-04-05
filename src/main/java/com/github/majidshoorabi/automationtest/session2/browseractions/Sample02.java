@@ -1,6 +1,7 @@
-package com.github.majidshoorabi.automationtest.session2;
+package com.github.majidshoorabi.automationtest.session2.browseractions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
@@ -50,6 +51,19 @@ public class Sample02 {
          * Browser Action 5 > Refresh
          */
         driver.navigate().refresh();
+
+        Thread.sleep(1000);
+
+        /**
+         * Browser Action 6 > Open a new tab an switch on it.
+         */
+        driver.switchTo().newWindow(WindowType.TAB);
+
+        /**
+         * Browser Action 7 > Open a new Window an switch on it.
+         */
+        driver.switchTo().newWindow(WindowType.WINDOW);
+
         Thread.sleep(1000);
 
         driver.close();

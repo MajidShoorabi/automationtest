@@ -1,4 +1,4 @@
-package com.github.majidshoorabi.automationtest.session2;
+package com.github.majidshoorabi.automationtest.session2.browseractions;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

@@ -1,4 +1,4 @@
-package com.github.majidshoorabi.automationtext.session14;
+package com.github.majidshoorabi.automationtest.session14;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
